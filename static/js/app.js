@@ -1,6 +1,7 @@
 // import the data from data.js
 const tableData = data; 
 // Reference the HTML table using d3
+console.log(data)
 var tbody = d3.select("tbody");
 // Simple JavaScript console.log statement
 function printHello() {
@@ -54,6 +55,7 @@ d3.selectAll("#filter-btn").on("click", handleClick);
 // Build the table when the page loads
 buildTable(tableData);
 
+console.log('Hello World');
 
 
 // pseudocode practice
